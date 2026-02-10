@@ -19,7 +19,7 @@ body {
     line-height: 1.6;
 }
 
-/* HEADER STYLES */
+
 header {
     background: linear-gradient(135deg, #8ecbd1 0%, #6db5ba 100%);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,6 @@ header {
     letter-spacing: 0.5px;
 }
 
-/* NAVIGATION STYLES */
 nav {
     margin: 0;
 }
