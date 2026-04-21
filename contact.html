@@ -3,16 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Contact </title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-    <h1>You can contact me using</h1>
-    <div>
-        <ul> 
-            <li><b>Email </b> mtchwnjk@gmail.com</li>
-             <li><b>Phone Number </b>0780621971</li>
-        </ul>
+
+    <div class="contact-wrapper">
+        <form action="contact" method="POST" class="booking-form">
+            <h1>Interested in booking?</h1>
+            
+            <div class="input-group">
+                <label for="Name">Name</label>
+                <input type="text" id="Name" name="Name" required placeholder="Your Name">
+            </div>
+
+            <div class="input-group">
+                <label for="Email">Email</label>
+                <input type="email" id="Email" name="Email" required placeholder="Your Email">
+            </div>
+
+            <div class="input-group">
+                <label for="Phone">Phone Number</label>
+                <input type="tel" id="Phone" name="Phone" required placeholder="Phone Number">
+            </div>
+
+            <div class="input-group">
+                <label for="Message">Message</label>
+                <textarea id="Message" name="Message" required placeholder="Your Message" rows="4"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+
+        <div class="info-box">
+            <ul> 
+                <li><strong>Email:</strong> mtchwnjk@gmail.com</li>
+                <li><strong>Phone Number:</strong> 0780621971</li>
+            </ul>
+        </div>
     </div>
-    
+
 </body>
 </html>
